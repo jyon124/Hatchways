@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Student Profile Component Tests Renders a Student Profile component 1`] = `"<div class=\\"content\\"><div>City: California</div><div>Email: jyon1204@gmail.com</div><div>Company: Hatchways</div><div>Skill: FrontendDevelopment</div><div>Average: 100.00%</div></div>"`;

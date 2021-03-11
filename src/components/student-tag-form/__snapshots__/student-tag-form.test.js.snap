@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Student Tag Form Component Tests Renders a Student Tag Form component 1`] = `"<form><input class=\\"input\\" placeholder=\\"Tag name\\" type=\\"text\\" value=\\"\\"><input class=\\"tagSubmit\\" type=\\"submit\\"></form>"`;
