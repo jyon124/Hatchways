@@ -1,0 +1,31 @@
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.studetCardContainerWrapper {
+    /* text-align: center; */
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: 15% 1fr 15%;
+    grid-template-rows: 5% 1fr 5%;
+    grid-gap: 10px;
+    grid-template-areas:
+        ". . ."
+        ". content ."
+        ". . .";
+    width: 100vw;
+    height: 100vh;
+}
+.contentContainer {
+    background-color: white;
+    text-align: left;
+    border-radius: 12px;
+    grid-area: content;
+    max-height: 90vh;
+    overflow-y: auto;
+    border: 1px solid lightgrey;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.2);
+}

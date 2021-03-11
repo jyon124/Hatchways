@@ -1,0 +1,24 @@
+.expandBtn {
+    grid-area: expandBtn;
+    justify-self: end;
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+}
+
+.horizontalLine {
+    position: relative;
+    box-sizing: border-box;
+    background-color: black;
+    padding: 3px;
+    top: 0.35em;
+    border-radius: 10%;
+}
+
+.verticalLine {
+    position: relative;
+    background-color: black;
+    padding: 3px;
+    transform: rotate(90deg);
+    border-radius: 10%;
+}

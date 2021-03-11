@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Student Grade Component Tests Renders a Student Grade component 1`] = `"<div class=\\"grade\\">Test2: 94%</div>"`;

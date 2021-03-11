@@ -1,0 +1,11 @@
+.avatar {
+    grid-area: avatar;
+    justify-self: center;
+    align-self: start;
+    border-radius: 50%;
+    border: 1px solid lightgrey;
+    width: 84px;
+    height: 84px;
+    margin-top: 12px;
+    margin-right: 6px;
+}

@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Student Cards Container Component Tests Renders a Student Cards Container component 1`] = `"<div class=\\"studetCardContainerWrapper\\"><div class=\\"contentContainer\\"><input class=\\"input\\" placeholder=\\"Search by name\\"><input class=\\"input\\" placeholder=\\"Search by tag\\"></div></div>"`;

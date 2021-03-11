@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Student Tag Component Tests Renders a Student Tag component 1`] = `"<div class=\\"tag\\">test<span class=\\"tagDelete\\">X</span></div>"`;
