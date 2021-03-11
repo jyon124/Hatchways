@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Student Avatar Component Tests Renders a Student Avatar component 1`] = `"<img src=\\"https:image.url.jpg\\" class=\\"avatar\\" alt=\\"avatar\\">"`;

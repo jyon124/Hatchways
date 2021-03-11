@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Student Expand Button Component Tests Renders a Student Expand Button component 1`] = `"<div class=\\"expandBtn\\"><div class=\\"horizontalLine\\"></div><div></div></div>"`;

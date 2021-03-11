@@ -1,0 +1,54 @@
+.container {
+    display: grid;
+    grid-template-columns: min-content 33% 1fr 1fr 1fr;
+    grid-template-rows: min-content, 1fr 1fr;
+    grid-gap: 10px;
+    grid-template-areas:
+        "avatar name name name expandBtn"
+        "avatar content content . ."
+        ". content content . ."
+        ". tags tags . .";
+    padding: 16px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.expandBtn {
+    grid-area: expandBtn;
+    justify-self: end;
+    height: 24px;
+    width: 24px;
+}
+
+.tagSubmit {
+    display: hidden;
+}
+
+.extendedContents {
+    margin-top: 80px;
+    margin-left: 5px;
+    grid-area: content;
+}
+
+.tagsContainer {
+    grid-area: tags;
+}
+
+/* reformat the grid for mobile viewership */
+@media only screen and (max-width: 550px) {
+    .container {
+        text-align: center;
+        display: grid;
+        max-width: 100vw;
+        grid-template-columns: 1fr 80% 1fr;
+        grid-template-rows: min-content, min-content, 1fr 1fr;
+        grid-gap: 10px;
+        grid-template-areas:
+            ". avatar expandBtn"
+            ". name ."
+            ". content ."
+            ". content ."
+            ". tags .";
+        padding: 16px;
+        border-bottom: 1px solid lightgrey;
+    }
+}

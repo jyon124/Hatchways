@@ -1,0 +1,48 @@
+.tag {
+    display: inline-block;
+    margin: 5px;
+    padding: 8px;
+    width: fit-content;
+    background-color: lightgrey;
+    border-radius: 4px;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.tag:hover {
+    background-color: #101010;
+    color: #fff;
+    animation: wiggle 120ms infinite;
+    animation-timing-function: linear;
+}
+
+.tag:hover .tagDelete {
+    visibility: visible;
+}
+
+.tagDelete {
+    visibility: hidden;
+    position: relative;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-weight: 900;
+    float: right;
+    top: -0.6em;
+    left: 0.3em;
+    color: #f52a01;
+}
+
+@keyframes wiggle {
+    0% {
+        transform: translate(1px, 0);
+    }
+    50% {
+        transform: translate(-1px, 0);
+    }
+    100% {
+        transform: translate(1px, 0);
+    }
+}
