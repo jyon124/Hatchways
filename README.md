@@ -1,6 +1,10 @@
 # Hatchways Front-end Coding Assessment
 
-<img src="public/logo512.png" width="250" height="200" />
+<img src="public/logo512.png" width="240" height="200" />
+<br/><br/><br/>
+
+# Application Demo URL
+https://hatchways-app-frontend.herokuapp.com/
 <br/><br/><br/>
 
 ## Installation
