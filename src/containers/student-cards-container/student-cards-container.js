@@ -154,7 +154,7 @@ function StudentCardsContainer() {
     function renderStudentCards() {
         if (students.length) {
             let res;
-            if(nameSearchInput.length && cache.current[nameSearchInput]){
+            if (nameSearchInput.length && cache.current[nameSearchInput]) {
                 res = cache.current[nameSearchInput];
             } else {
                 res = [...students];
